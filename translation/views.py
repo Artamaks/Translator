@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 # Create your views here.
-def translation(reqest):
-    return HttpResponse("Hello, I am Working")
+def translation(request):
+    return render(request, 'translation.html' )
