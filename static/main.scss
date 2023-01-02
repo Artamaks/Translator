@@ -4,6 +4,8 @@
 @import '../bootstrap/scss/functions';
 @import '../bootstrap/scss/variables';
 
-
+.main-content {
+    min-height: 80vh;
+}
 
 @import '../bootstrap/scss/bootstrap.scss'
